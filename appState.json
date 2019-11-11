@@ -1,0 +1,76 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "ae34164f-df27-4a16-833e-850aa2c30402": {
+        "id": "ae34164f-df27-4a16-833e-850aa2c30402",
+        "parent": null,
+        "name": "subpath-commit",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "4e24e9e9-ce0c-4622-a300-4baf2a977dcc"
+        ],
+        "isRemovable": false,
+        "filePath": "subpath-commit"
+      },
+      "4e24e9e9-ce0c-4622-a300-4baf2a977dcc": {
+        "id": "4e24e9e9-ce0c-4622-a300-4baf2a977dcc",
+        "parent": "ae34164f-df27-4a16-833e-850aa2c30402",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "subpath-commit/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    console.log(\"hello\");\n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "rootNode": "ae34164f-df27-4a16-833e-850aa2c30402",
+    "openFiles": [
+      "4e24e9e9-ce0c-4622-a300-4baf2a977dcc"
+    ],
+    "currentFileId": "4e24e9e9-ce0c-4622-a300-4baf2a977dcc",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "subpath-commit",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1573468519160
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "123t",
+      "url": "https://github.com/zgma-test/123t"
+    }
+  }
+}
