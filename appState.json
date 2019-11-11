@@ -1,28 +1,28 @@
 {
   "EDITOR_STATE": {
     "allProjectFiles": {
-      "ae34164f-df27-4a16-833e-850aa2c30402": {
-        "id": "ae34164f-df27-4a16-833e-850aa2c30402",
+      "1a8f5eb7-9cd7-4910-a4c9-d351d967baca": {
+        "id": "1a8f5eb7-9cd7-4910-a4c9-d351d967baca",
         "parent": null,
-        "name": "subpath-commit",
+        "name": "dwdw",
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
-          "4e24e9e9-ce0c-4622-a300-4baf2a977dcc"
+          "de27efb0-69e6-4964-bcc2-5d789d8cb388"
         ],
         "isRemovable": false,
-        "filePath": "subpath-commit"
+        "filePath": "dwdw"
       },
-      "4e24e9e9-ce0c-4622-a300-4baf2a977dcc": {
-        "id": "4e24e9e9-ce0c-4622-a300-4baf2a977dcc",
-        "parent": "ae34164f-df27-4a16-833e-850aa2c30402",
-        "name": "lambda.js",
+      "de27efb0-69e6-4964-bcc2-5d789d8cb388": {
+        "id": "de27efb0-69e6-4964-bcc2-5d789d8cb388",
+        "parent": "1a8f5eb7-9cd7-4910-a4c9-d351d967baca",
+        "name": "lambda222.js",
         "type": "JS_LAMBDA",
         "isDirectory": false,
         "children": [],
         "isRemovable": true,
-        "filePath": "subpath-commit/lambda.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    console.log(\"hello\");\n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "filePath": "dwdw/lambda222.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -33,11 +33,11 @@
         "triggers": []
       }
     },
-    "rootNode": "ae34164f-df27-4a16-833e-850aa2c30402",
+    "rootNode": "1a8f5eb7-9cd7-4910-a4c9-d351d967baca",
     "openFiles": [
-      "4e24e9e9-ce0c-4622-a300-4baf2a977dcc"
+      "de27efb0-69e6-4964-bcc2-5d789d8cb388"
     ],
-    "currentFileId": "4e24e9e9-ce0c-4622-a300-4baf2a977dcc",
+    "currentFileId": "de27efb0-69e6-4964-bcc2-5d789d8cb388",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -58,13 +58,13 @@
     }
   },
   "PROJECT_META": {
-    "projectName": "subpath-commit",
+    "projectName": "dwdw",
     "projectDescription": "",
     "projectVersion": "1.0.0",
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1573468519160
+    "lastSave": 1573469044132
   },
   "VCS_STATE": {
     "provider": "GitHub",
