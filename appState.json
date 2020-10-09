@@ -1,45 +1,39 @@
 {
   "EDITOR_STATE": {
     "allProjectFiles": {
-      "1a8f5eb7-9cd7-4910-a4c9-d351d967baca": {
-        "id": "1a8f5eb7-9cd7-4910-a4c9-d351d967baca",
+      "a5cc2657-3ab7-4e2b-96aa-fb9ee5cc4537": {
+        "id": "a5cc2657-3ab7-4e2b-96aa-fb9ee5cc4537",
         "parent": null,
-        "name": "dwdw",
-        "type": "DIRECTORY",
-        "isDirectory": true,
-        "children": [
-          "de27efb0-69e6-4964-bcc2-5d789d8cb388"
-        ],
-        "isRemovable": false,
-        "filePath": "dwdw"
-      },
-      "de27efb0-69e6-4964-bcc2-5d789d8cb388": {
-        "id": "de27efb0-69e6-4964-bcc2-5d789d8cb388",
-        "parent": "1a8f5eb7-9cd7-4910-a4c9-d351d967baca",
-        "name": "lambda222.js",
+        "name": "123t.js",
         "type": "JS_LAMBDA",
         "isDirectory": false,
         "children": [],
         "isRemovable": true,
-        "filePath": "dwdw/lambda222.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "filePath": "123t.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
         "config": {
-          "runtime": "nodejs8.10",
+          "runtime": "nodejs10.x",
           "handler": "handler",
           "timeout": 60,
           "memory": 128,
-          "layers": []
+          "layers": [],
+          "name": "123t"
         },
-        "triggers": []
+        "triggers": [],
+        "lastUpdated": 1602231197698
       }
     },
-    "rootNode": "1a8f5eb7-9cd7-4910-a4c9-d351d967baca",
     "openFiles": [
-      "de27efb0-69e6-4964-bcc2-5d789d8cb388"
+      "a5cc2657-3ab7-4e2b-96aa-fb9ee5cc4537"
     ],
-    "currentFileId": "de27efb0-69e6-4964-bcc2-5d789d8cb388",
+    "currentFileId": "a5cc2657-3ab7-4e2b-96aa-fb9ee5cc4537",
     "resources": {},
     "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
       "dialect": null,
       "definitions": null
     },
@@ -58,13 +52,15 @@
     }
   },
   "PROJECT_META": {
-    "projectName": "dwdw",
+    "sigmaVersion": "1.4.4",
+    "projectName": "123t",
     "projectDescription": "",
     "projectVersion": "1.0.0",
     "projectRegion": "us-east-1",
     "platform": "AWS",
+    "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1573469044132
+    "lastSave": 1602231206418
   },
   "VCS_STATE": {
     "provider": "GitHub",
