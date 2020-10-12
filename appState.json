@@ -1,8 +1,8 @@
 {
   "EDITOR_STATE": {
     "allProjectFiles": {
-      "a5cc2657-3ab7-4e2b-96aa-fb9ee5cc4537": {
-        "id": "a5cc2657-3ab7-4e2b-96aa-fb9ee5cc4537",
+      "cc544b83-05d0-4f5f-9dee-8c5e0e981510": {
+        "id": "cc544b83-05d0-4f5f-9dee-8c5e0e981510",
         "parent": null,
         "name": "123t.js",
         "type": "JS_LAMBDA",
@@ -23,13 +23,13 @@
           "name": "123t"
         },
         "triggers": [],
-        "lastUpdated": 1602231197698
+        "lastUpdated": 1602485235484
       }
     },
     "openFiles": [
-      "a5cc2657-3ab7-4e2b-96aa-fb9ee5cc4537"
+      "cc544b83-05d0-4f5f-9dee-8c5e0e981510"
     ],
-    "currentFileId": "a5cc2657-3ab7-4e2b-96aa-fb9ee5cc4537",
+    "currentFileId": "cc544b83-05d0-4f5f-9dee-8c5e0e981510",
     "resources": {},
     "customTemplate": {
       "syntax": "JSON",
@@ -52,7 +52,7 @@
     }
   },
   "PROJECT_META": {
-    "sigmaVersion": "1.4.4",
+    "sigmaVersion": "1.4.5",
     "projectName": "123t",
     "projectDescription": "",
     "projectVersion": "1.0.0",
@@ -60,7 +60,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1602231206418
+    "lastSave": 1602485255346
   },
   "VCS_STATE": {
     "provider": "GitHub",
